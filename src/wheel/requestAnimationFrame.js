@@ -27,6 +27,7 @@ if (!window.requestAnimationFrame) {
             // 注意这里也可以用的是return该callback函数，而不是直接执行，因为setTimeout
             // 接受的是一个回调函数，该函数传给timer，时间到了之后，会执行
             // return callback(curTime + timeToCall)
+            // 在requestAnimationFrame中，调用回调时会传入timestamp参数即调用的时刻
             callback(curTime + timeToCall)
         }, timeToCall);
 
