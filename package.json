@@ -1,7 +1,7 @@
 {
   "name": "count-wheel",
   "description": "A Vue.js project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "xuxiaolong <xuxiaolong200691@163.com>",
   "license": "MIT",
   "main": "dist/count-wheel.min.js",

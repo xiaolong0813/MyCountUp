@@ -7,7 +7,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'count-wheel.min.js'
+    filename: 'count-wheel.min.js',
+      //
+      library: 'CountTo',
+      libraryTarget: 'umd',
+      umdNamedDefine: true
   },
   module: {
     rules: [
